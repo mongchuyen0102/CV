@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  padding: 0 5vw;
+  max-width: 1100px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.formCv {
+  margin: 0 auto;
+  background-size: cover;
+  background: #717172;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 0px 40px;
+  line-height: 2;
+}
+
+.formCv .form-main {
+  max-width: 650px;
+  height: auto;
+  margin-left: 175px;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+}
+
+.formCv .form-main form .header-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #203E48;
+  color: #fff;
+}
+
+.formCv .form-main form .header-layout .top-left {
+  margin-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formCv .form-main form .header-layout .top-left .avatar {
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #FF9900;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.formCv .form-main form .header-layout .top-left .infoItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formCv .form-main form .header-layout .top-left .infoItem .icon {
+  margin-right: 10px;
+}
+
+.formCv .form-main form .header-layout .top-left .infoItem .icon i {
+  font-size: 14px;
+  color: #FF9900;
+}
+
+.formCv .form-main form .header-layout .top-left .infoItem .content-item p {
+  font-size: 14px;
+}
+
+.formCv .form-main form .header-layout .top-left .infoItem .content-item a {
+  color: #fff;
+}
+
+.formCv .form-main form .header-layout .top-right {
+  margin-left: 60px;
+}
+
+.formCv .form-main form .header-layout .top-right .mafia {
+  font-size: 18px;
+  color: #FF9900;
+  margin-bottom: 30px;
+}
+
+.formCv .form-main form .header-layout .top-right hr {
+  display: block;
+  width: 20%;
+  border: 1px solid #FF9900;
+  margin-left: 0;
+  background: #FF9900;
+}
+
+.formCv .form-main form .body-content {
+  height: 250px;
+}
+
+.formCv .form-main form .body-content .education {
+  background: #fff;
+  color: #203E48;
+  position: relative;
+}
+
+.formCv .form-main form .body-content .education .top-left {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.formCv .form-main form .body-content .education .top-left .icon {
+  margin-right: 5px;
+}
+
+.formCv .form-main form .body-content .education .top-left .icon i {
+  font-size: 25px;
+  color: #FF9900;
+}
+
+.formCv .form-main form .body-content .education .top-left p {
+  font-size: 30px;
+  color: #203E48;
+  font-weight: 600;
+}
+
+.formCv .form-main form .body-content .education .top-right {
+  color: #203E48;
+  margin-left: 60px;
+  float: right;
+  width: 400px;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 40%;
+}
+
+.formCv .form-main form .body-content .education .top-right .infoItem .line {
+  width: 100%;
+  height: 23px;
+  background: #203E48;
+}
+
+.formCv .form-main form .body-content .education .top-right .infoItem .school {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formCv .form-main form .body-content .education .top-right .infoItem .major {
+  position: relative;
+}
+
+.formCv .form-main form .body-content .education .top-right .infoItem .major span {
+  width: 1px;
+  height: 18px;
+  margin-left: 0;
+  border: 1px solid #FF9900;
+  background: #FF9900;
+  margin-left: 20px;
+}
+
+.formCv .form-main form .body-content .education .top-right .infoItem .major p {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.formCv .form-main form .body-content2 {
+  height: 300px;
+}
+
+.formCv .form-main form .body-content2 .experience {
+  background: #fff;
+  color: #203E48;
+  position: relative;
+}
+
+.formCv .form-main form .body-content2 .experience .top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.formCv .form-main form .body-content2 .experience .top-left .icon {
+  margin-right: 5px;
+}
+
+.formCv .form-main form .body-content2 .experience .top-left .icon i {
+  font-size: 25px;
+  color: #FF9900;
+}
+
+.formCv .form-main form .body-content2 .experience .top-left p {
+  font-size: 30px;
+  color: #203E48;
+  font-weight: 600;
+}
+
+.formCv .form-main form .body-content2 .experience .top-right {
+  color: #203E48;
+  margin-left: 60px;
+  float: right;
+  width: 400px;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 40%;
+}
+
+.formCv .form-main form .body-content2 .experience .top-right .infoItem .line {
+  width: 100%;
+  height: 23px;
+  background: #203E48;
+}
+
+.formCv .form-main form .body-content2 .experience .top-right .infoItem .school {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formCv .form-main form .body-content3 {
+  height: 150px;
+}
+
+.formCv .form-main form .body-content3 .skill {
+  background: #fff;
+  color: #203E48;
+  position: relative;
+}
+
+.formCv .form-main form .body-content3 .skill .top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.formCv .form-main form .body-content3 .skill .top-left .icon {
+  margin-right: 5px;
+}
+
+.formCv .form-main form .body-content3 .skill .top-left .icon i {
+  font-size: 25px;
+  color: #FF9900;
+}
+
+.formCv .form-main form .body-content3 .skill .top-left p {
+  font-size: 30px;
+  color: #203E48;
+  font-weight: 600;
+}
+
+.formCv .form-main form .body-content3 .skill .top-right {
+  color: #203E48;
+  margin-left: 60px;
+  float: right;
+  width: 400px;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 40%;
+}
+
+.formCv .form-main form .body-content3 .skill .top-right .infoItem .line {
+  width: 100%;
+  height: 23px;
+  background: #203E48;
+}
+/*# sourceMappingURL=style.css.map */
